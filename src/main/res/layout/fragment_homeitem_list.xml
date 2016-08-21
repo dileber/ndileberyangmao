@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<android.support.v7.widget.RecyclerView xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:id="@+id/list"-->
+    <!--android:name="com.zhonghua.shidawei.nhaoyang.activity.home.HomeItemFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--app:layoutManager="LinearLayoutManager"-->
+    <!--tools:context="com.zhonghua.shidawei.nhaoyang.activity.home.HomeItemFragment"-->
+    <!--tools:listitem="@layout/fragment_homeitem" />-->
+
+<com.zhonghua.shidawei.nhaoyang.view.ScrollChildSwipeRefreshLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/swipe_refresh_widget"
+android:layout_width="match_parent"
+android:layout_height="match_parent" >
+
+<android.support.v7.widget.RecyclerView
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:cacheColorHint="@null"
+    android:scrollbars="vertical" />
+
+</com.zhonghua.shidawei.nhaoyang.view.ScrollChildSwipeRefreshLayout>
+
+
+    <!--<?xml version="1.0" encoding="utf-8"?>-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--xmlns:tools="http://schemas.android.com/tools"-->
+<!--android:layout_width="match_parent"-->
+<!--android:layout_height="match_parent"-->
+<!--android:orientation="vertical"-->
+<!--tools:context="com.zhonghua.shidawei.nhaoyang.activity.home.HomeItemFragment"-->
+    <!--&gt;-->
+
+<!--<LinearLayout-->
+    <!--android:orientation="horizontal"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:id="@+id/home_carousel">-->
+<!--</LinearLayout>-->
+
+<!--<android.support.v7.widget.RecyclerView-->
+    <!--android:id="@+id/list"-->
+    <!--android:name="com.zhonghua.shidawei.nhaoyang.activity.home.HomeItemFragment"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:layout_marginLeft="16dp"-->
+    <!--android:layout_marginRight="16dp"-->
+    <!--app:layoutManager="LinearLayoutManager"-->
+    <!--tools:listitem="@layout/fragment_homeitem" />-->
+
+
+
+<!--</LinearLayout>-->
